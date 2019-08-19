@@ -54,7 +54,9 @@ namespace OkulProjesi.Manager
             }
         }
 
-        public List<Data.Duyurular> SetDuyurular(Duyurular duyurular)
+       
+
+        public List<Data.Duyurular> SetDuyurular(Models.Duyurular duyurular)
         {
             throw new NotImplementedException();
         }

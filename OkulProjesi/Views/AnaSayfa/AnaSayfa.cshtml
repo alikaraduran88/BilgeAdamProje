@@ -1,0 +1,26 @@
+﻿
+@{
+    Layout = null;
+}
+@using OkulProjesi.Models;
+@model List<Duyurular>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AnaSayfa</title>
+</head>
+<body>
+    <div> 
+        <ul>
+            @foreach(var item in Model)
+            {
+                <li>
+                    @item.Icerik
+                </li>
+            }
+        </ul>
+    </div>
+</body>
+</html>

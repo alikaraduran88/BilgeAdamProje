@@ -14,7 +14,7 @@ namespace OkulProjesi.Manager
             throw new NotImplementedException();
         }
 
-        public List<Duyurular> GetDuyurular()
+        public List<Data.Duyurular> GetDuyurular()
         {
             throw new NotImplementedException();
         }
