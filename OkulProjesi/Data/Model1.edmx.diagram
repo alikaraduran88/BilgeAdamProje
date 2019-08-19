@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="83d966d3bb494f54b3d6932a37d4dc9d" Name="Diagram1">
+        <EntityTypeShape EntityType="PROJEModel.AlinanDersler" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="PROJEModel.Duyurular" Width="1.5" PointX="7.125" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PROJEModel.Lesson" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="PROJEModel.Student" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="PROJEModel.sysdiagram" Width="1.5" PointX="10.75" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PROJEModel.Teacher" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="PROJEModel.Yoklama" Width="1.5" PointX="7.5" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="PROJEModel.FK_AlinanDersler_Lessons" ManuallyRouted="false" />
+        <AssociationConnector Association="PROJEModel.FK_AlinanDersler_Student" ManuallyRouted="false" />
+        <AssociationConnector Association="PROJEModel.FK_Yoklama_AlinanDersler" ManuallyRouted="false" />
+        <AssociationConnector Association="PROJEModel.FK_Lessons_Teacher" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
